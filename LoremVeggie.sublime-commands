@@ -1,0 +1,26 @@
+[
+
+  {
+    "caption": "LoremVeggie: (5) grow a bit",
+    "command": "lorem_veggie",
+    "args": {"qty": 5 }
+  },
+
+  {
+    "caption": "LoremVeggie: (15) grow some",
+    "command": "lorem_veggie",
+    "args": {"qty": 15 }
+  },
+
+  {
+    "caption": "LoremVeggie: (30) grow lots",
+    "command": "lorem_veggie",
+    "args": {"qty": 30 }
+  },
+
+  {
+    "caption": "LoremVeggie: (200) stick shake",
+    "command": "lorem_veggie",
+    "args": {"qty": 200 }
+  }
+]

@@ -3,7 +3,7 @@ import sublime_plugin
 import random
 import re
 
-class LoremIpsumCommand(sublime_plugin.TextCommand):
+class LoremVeggieCommand(sublime_plugin.TextCommand):
 
     def run(self, edit, qty=10):
 
@@ -11,11 +11,12 @@ class LoremIpsumCommand(sublime_plugin.TextCommand):
         for selection in selections:
 
             # always start with Lorem ipsum for first outpur lorem
-            para = "Lorem ipsum "
+            para = "Veggies es bonus vobis, proinde vos postulo essum magis "
 
             # words from the original Lorum ipsum text
             words = "dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum".split()
-
+            # deutsche Namen:
+            # words = "".split()
             # get preceding numbers (possibly with decimal separation) if available
             lastchars = self.view.substr(sublime.Region(selection.begin()-20, selection.end()))
             last = re.search("(|(\d+)(\.\d+)?)$", lastchars).group(0)

@@ -1,4 +1,8 @@
-# LoremIpsum
+# LoremVeggie
+
+This is a Fork of Billy Moons [LoremIpsum Generator](https://github.com/billymoon/LoremIpsum) for Sublime Text
+
+There not much i really changed (yet) apart from the wordlist which i replaced with veggies. This is whole thing is inspired by the [VeggieIpsum](http://veggieipsum.com/)
 
 An extension for Sublime Text 2 and 3!
 

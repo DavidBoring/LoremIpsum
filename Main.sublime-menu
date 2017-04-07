@@ -8,13 +8,13 @@
                 "children":
                 [
                     {
-                        "caption":"Lorem Ipsum...",
+                        "caption":"Lorem Veggie...",
                         "children":
                         [
-                            {"command": "lorem_ipsum", "caption": "a bit", "args":{"qty":5}},
-                            {"command": "lorem_ipsum", "caption": "some", "args":{"qty":15}},
-                            {"command": "lorem_ipsum", "caption": "lots", "args":{"qty":30}},
-                            {"command": "lorem_ipsum", "caption": "stick shake", "args":{"qty":200}}
+                            {"command": "lorem_veggie", "caption": "grow a bit", "args":{"qty":5}},
+                            {"command": "lorem_veggie", "caption": "grow some", "args":{"qty":15}},
+                            {"command": "lorem_veggie", "caption": "grow lots", "args":{"qty":30}},
+                            {"command": "lorem_veggie", "caption": "stick shake", "args":{"qty":200}}
                         ]    
                     }
                 ]
